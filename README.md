@@ -1,0 +1,1 @@
+This repository contains example Golang structs for testing with ../dbgen.
