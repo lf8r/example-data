@@ -23,6 +23,7 @@ type Edition struct {
 }
 
 type Book struct {
+	Resource
 	Title     string
 	Author    string
 	Publisher string
