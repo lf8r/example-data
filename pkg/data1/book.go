@@ -5,7 +5,7 @@ package data1
 import "time"
 
 // Resource is a base type which must be embedded in persisted structs.
-type Resource struct {
+type Base struct {
 	ID       string
 	Name     string
 	Created  time.Time
@@ -23,7 +23,7 @@ type Edition struct {
 }
 
 type Book struct {
-	Resource
+	Base
 	Title     string
 	Author    string
 	Publisher string
