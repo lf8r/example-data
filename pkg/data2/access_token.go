@@ -14,6 +14,7 @@ type Base struct {
 
 // AccessToken describes a token used to gain access to a system.
 type AccessToken struct {
+   Base
 	Val      string
 	IssuedTo string
 	Role     string
