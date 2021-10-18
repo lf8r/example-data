@@ -2,14 +2,16 @@
 
 package data1
 
-import "time"
+import (
+	"github.com/lf8r/example-data/pkg/common"
+)
 
 // Resource is a base type which must be embedded in persisted structs.
 type Base struct {
 	ID       string
 	Name     string
-	Created  time.Time
-	Modified time.Time
+	Created  common.Time
+	Modified common.Time
 }
 
 type Seller struct {
