@@ -2,17 +2,7 @@
 
 package data1
 
-import (
-	"github.com/lf8r/dbgen-common/pkg/common"
-)
-
-// Resource is a base type which must be embedded in persisted structs.
-type Base struct {
-	ID       string
-	Name     string
-	Created  common.Time
-	Modified common.Time
-}
+import "github.com/lf8r/dbgen-common/pkg/common"
 
 type Seller struct {
 	Name         string
@@ -25,7 +15,7 @@ type Edition struct {
 }
 
 type Book struct {
-	Base
+	common.Resource
 	Title     string
 	Author    string
 	Publisher string
