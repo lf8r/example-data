@@ -13,5 +13,5 @@ type AccessToken struct {
 	IssuedTo string
 	Role     string
 	Issuer   string
-	Expires  string
+	Expires  common.Time
 }
