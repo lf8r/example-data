@@ -3,7 +3,7 @@
 package data1
 
 import (
-	"github.com/lf8r/example-data/pkg/common"
+	"github.com/lf8r/dbgen-common/pkg/common"
 )
 
 // Resource is a base type which must be embedded in persisted structs.
